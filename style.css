@@ -1,0 +1,18 @@
+body
+{
+  background: rgb(244, 175, 180);
+
+}
+p{
+  background: rgb(207, 130, 127) ;
+  color: black;
+}
+  table{
+   width: 100%;
+  }
+
+    div{display: inline;}
+    divimg{float: right}
+
+    td{text-align: center}
+    th{text-align: left}
