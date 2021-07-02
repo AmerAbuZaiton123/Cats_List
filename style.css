@@ -4,13 +4,16 @@ body
 
 }
 p{
-  background: rgb(207, 130, 127) ;
+  background: rgb(42, 95%, 35%);
   color: black;
 }
   table{
    width: 100%;
   }
 
+
+
+a{text-decoration: none}
     div{display: inline;}
     divimg{float: right}
 
