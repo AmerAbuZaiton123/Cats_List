@@ -57,7 +57,7 @@ alert("Welcome")
 var catType = prompt("Enter the type of cat from the list below \n americancurl ,chartreux ,balinese ")
 
 while (catType != 'americancurl' && catType != 'chartreux' && catType != 'balinese') {
-  catType = prompt("please select from the list")
+  catType = prompt("please select from the list (americancurl ,chartreux ,balinese) and but what select in box")
 }
 
 var numberRe = prompt(' How ' + catType + 'do you want to see ?')
