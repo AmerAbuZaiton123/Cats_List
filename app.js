@@ -55,7 +55,8 @@ for(var i=0 ;i < num;i++)
 
 alert("Welcome")
 var catType = prompt("Enter the type of cat from the list below \n americancurl ,chartreux ,balinese ")
-
+function cats_re()
+{
 while (catType != 'americancurl' && catType != 'chartreux' && catType != 'balinese') {
   catType = prompt("please select from the list (americancurl ,chartreux ,balinese) and but what select in box")
 }
@@ -72,3 +73,22 @@ for (var i = 0; i <= numberRe; i++) {
   document.write(' <img src="https://d17fnq9dkz9hgj.cloudfront.net/breed-uploads/2018/08/chartreux-detail.jpg?bust=1535566975&width=355" alt="Chartreux">')
  }
 }
+}
+
+cats_re();
+ 
+var Smail = prompt('How many Smail want in our website ?')
+
+
+
+function SmailFace(num){
+ var return1 = '' 
+for(var i = 0 ; i < num; i++) {
+  return1=return1 +  "<img src='https://mymodernmet.com/wp/wp-content/uploads/2020/08/smiley-face-history-0.jpg' alt='smail'>"
+}
+ 
+ return return1;
+}
+
+
+document.write(SmailFace(Smail))

@@ -1,6 +1,7 @@
 body
 {
-  background: rgb(244, 175, 180);
+  padding: 30px;
+  background:rgb(244, 175, 180);
 
 }
 p{
@@ -19,3 +20,8 @@ a{text-decoration: none}
 
     td{text-align: center}
     th{text-align: left}
+
+    p{ 
+      border: 1px solid black; 
+      padding: 25px;
+      }
