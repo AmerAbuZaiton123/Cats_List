@@ -54,7 +54,7 @@ for(var i=0 ;i < num;i++)
 */
 
 alert("Welcome")
-var catType = prompt("Enter the type of cat from the list below \n americanCurl ,chartreux ,balinese ")
+var catType = prompt("Enter the type of cat from the list below \n americancurl ,chartreux ,balinese ")
 
 while (catType != 'americancurl' && catType != 'chartreux' && catType != 'balinese') {
   catType = prompt("please select from the list")
